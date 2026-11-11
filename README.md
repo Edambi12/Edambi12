@@ -1,27 +1,38 @@
 <div align="center">
 
-# Edam Ketata
+<picture>
+  <source media="(max-width: 640px)" srcset="https://raw.githubusercontent.com/Edambi12/Edambi12/main/assets/hero/hero-mobile.svg">
+  <img src="assets/hero/hero.svg" width="100%" alt="Edam KETATA. Transforming data into intelligence. Business Intelligence, Data Engineering, Data Analytics. Business Intelligence student at ISGIS, University of Sfax, on Erasmus+ exchange at Lublin University of Technology, class of 2027. Microsoft certified: PL-300, DP-700, AI-102.">
+</picture>
 
-**Business Intelligence · Data Analytics · Data Engineering**
-
-Business Computing student at the University of Sfax, on Erasmus+ exchange in Lublin, Poland.<br>
-Microsoft-certified in Power BI and Fabric. Graduating in 2027.
-
-[Projects](#projects) &nbsp;·&nbsp; [Skills](#skills) &nbsp;·&nbsp; [Certifications](#certifications) &nbsp;·&nbsp; [Education](#education) &nbsp;·&nbsp; [Contact](#contact)
+[About](#about) &nbsp;·&nbsp; [Projects](#projects) &nbsp;·&nbsp; [Stack](#stack) &nbsp;·&nbsp; [Certifications](#certifications) &nbsp;·&nbsp; [Recognition](#recognition) &nbsp;·&nbsp; [Education](#education) &nbsp;·&nbsp; [Contact](#contact)
 
 </div>
 
----
+## About
+
+I'm a Business Computing student specialising in Business Intelligence at ISGIS, University of Sfax, currently on an Erasmus+ exchange at Lublin University of Technology in Poland.
 
 I work on the part of BI that sits between the raw file and the finished report: cleaning source data, designing the warehouse model, writing the measures, and documenting what the numbers can and cannot say.
 
-My projects so far cover a financial data warehouse built on real company data, a Power BI model over a million-row sales table, and a desktop sales system written during an internship. Each repository states its own limits, including the results that did not work.
-
 > **Open to a 2027 end-of-studies internship (PFE)** in Business Intelligence or Data Engineering, remote or on-site.
+
+<picture>
+  <source media="(max-width: 640px)" srcset="https://raw.githubusercontent.com/Edambi12/Edambi12/main/assets/diagrams/pipeline-mobile.svg">
+  <img src="assets/diagrams/pipeline.svg" width="100%" alt="How the work flows in five steps. Sources: Excel and CSV. Prepare: Python and Power Query. Integrate: Talend and ETL. Model: MySQL and DAX. Report: Power BI.">
+</picture>
+
+- **Business Intelligence and analytics.** Power BI reports, DAX measures and KPI definitions a decision-maker can trace back to the data.
+- **Data engineering and ETL.** Staging areas, warehouse loads and dimensional models.
+- **Data analytics and machine learning.** Profiling, cleaning and imputation in Python, with scikit-learn for exploratory modelling.
+
+<img src="assets/backgrounds/divider.svg" width="100%" alt="">
 
 ## Projects
 
-<a href="https://github.com/Edambi12/aquavolta-bi-platform"><img align="right" width="340" alt="AquaVolta web application, landing page" src="https://raw.githubusercontent.com/Edambi12/aquavolta-bi-platform/8f9921af95626553aef8861966198619c1d96174/screenshots/app-home.png"></a>
+<img src="assets/projects/case-01.svg" width="100%" alt="">
+
+<a href="https://github.com/Edambi12/aquavolta-bi-platform"><img align="right" width="400" alt="AquaVolta web application, landing page" src="assets/projects/aquavolta.jpg"></a>
 
 ### [AquaVolta BI Platform](https://github.com/Edambi12/aquavolta-bi-platform)
 
@@ -33,9 +44,13 @@ The repository also holds a calculation audit that found and corrected an imputa
 
 `Python` `Pandas` `scikit-learn` `Talend` `MySQL` `Power BI` `GitHub Actions`
 
+**[View repository →](https://github.com/Edambi12/aquavolta-bi-platform)**
+
 <br clear="right">
 
-<a href="https://github.com/Edambi12/apple-sales-bi-platform"><img align="right" width="340" alt="Apple Retail Sales Analytics, case-study web application" src="https://raw.githubusercontent.com/Edambi12/apple-sales-bi-platform/9ec5500d080b2a6fab3bc9d1810761022b27f986/docs/screenshots/application-overview.png"></a>
+<img src="assets/projects/case-02.svg" width="100%" alt="">
+
+<a href="https://github.com/Edambi12/apple-sales-bi-platform"><img align="right" width="400" alt="Apple Retail Sales Analytics, case-study web application" src="assets/projects/apple-retail.jpg"></a>
 
 ### [Apple Retail Sales Analytics](https://github.com/Edambi12/apple-sales-bi-platform)
 
@@ -47,11 +62,13 @@ Built on a synthetic Kaggle dataset; the data quality notes and limitations are 
 
 `Power BI` `DAX` `Power Query` `Data Modeling`
 
-[Live report](https://app.powerbi.com/view?r=eyJrIjoiNjNjZTE3ZmUtNzAzNC00ODA3LWJkMGMtYWQ4MTNlYTUzNGE1IiwidCI6ImRiZDY2NjRkLTRlYjktNDZlYi05OWQ4LTVjNDNiYTE1M2M2MSIsImMiOjl9) &nbsp;·&nbsp; [Web application](https://apple-demo.lovable.app)
+**[View repository →](https://github.com/Edambi12/apple-sales-bi-platform)** &nbsp;·&nbsp; [Live report](https://app.powerbi.com/view?r=eyJrIjoiNjNjZTE3ZmUtNzAzNC00ODA3LWJkMGMtYWQ4MTNlYTUzNGE1IiwidCI6ImRiZDY2NjRkLTRlYjktNDZlYi05OWQ4LTVjNDNiYTE1M2M2MSIsImMiOjl9) &nbsp;·&nbsp; [Web application](https://apple-demo.lovable.app)
 
 <br clear="right">
 
-<a href="https://github.com/Edambi12/sales-management-information-system"><img align="right" width="340" alt="SOKTRAPA sales system, order management screen" src="https://raw.githubusercontent.com/Edambi12/sales-management-information-system/bd30bb40dcb80f105295ba6590c42cb84bbc34ec/docs/screenshots/05-order-management.png"></a>
+<img src="assets/projects/case-03.svg" width="100%" alt="">
+
+<a href="https://github.com/Edambi12/sales-management-information-system"><img align="right" width="400" alt="SOKTRAPA sales system, order management screen" src="assets/projects/sales-system.jpg"></a>
 
 ### [Sales Management Information System](https://github.com/Edambi12/sales-management-information-system)
 
@@ -63,32 +80,45 @@ Java Swing over a ten-table MySQL schema, with transactional JDBC access and 24 
 
 `Java` `Swing` `JDBC` `MySQL` `UML`
 
+**[View repository →](https://github.com/Edambi12/sales-management-information-system)**
+
 <br clear="right">
 
-## Skills
+<img src="assets/backgrounds/divider.svg" width="100%" alt="">
+
+## Stack
 
 <table>
-  <tr><td><b>Business Intelligence</b></td><td>Power BI · DAX · Power Query · Microsoft Fabric · Dimensional Modeling · Data Warehousing</td></tr>
-  <tr><td><b>Data Engineering</b></td><td>ETL Pipelines · Talend · Microsoft Fabric · Data Integration</td></tr>
-  <tr><td><b>Data &amp; Programming</b></td><td>SQL · Python · Pandas · scikit-learn · Java · C</td></tr>
-  <tr><td><b>Databases</b></td><td>MySQL · PostgreSQL · Oracle PL/SQL</td></tr>
-  <tr><td><b>Tooling</b></td><td>Git · GitHub · Docker</td></tr>
+  <tr><td><b>Business Intelligence</b></td><td><code>Power BI</code> <code>DAX</code> <code>Power Query</code> <code>Microsoft Fabric</code> <code>Dimensional Modeling</code> <code>Data Warehousing</code></td></tr>
+  <tr><td><b>Data Engineering</b></td><td><code>ETL Pipelines</code> <code>Talend</code> <code>Microsoft Fabric</code> <code>Data Integration</code></td></tr>
+  <tr><td><b>Programming &amp; Analytics</b></td><td><code>Python</code> <code>Pandas</code> <code>scikit-learn</code> <code>SQL</code> <code>Java</code> <code>C</code></td></tr>
+  <tr><td><b>Databases</b></td><td><code>MySQL</code> <code>PostgreSQL</code> <code>Oracle PL/SQL</code></td></tr>
+  <tr><td><b>Development Tools</b></td><td><code>Git</code> <code>GitHub</code> <code>Docker</code></td></tr>
 </table>
 
 ## Certifications
 
-- **Microsoft Certified: Power BI Data Analyst Associate** (PL-300)
-- **Microsoft Certified: Fabric Data Engineer Associate** (DP-700)
-- **Microsoft Certified: Azure AI Engineer Associate** (AI-102)
-- **Google Data Analytics Professional Certificate**
-- NVIDIA courses in Deep Learning and Data Science
+<table>
+  <tr>
+    <td align="center" width="33%"><img src="assets/icons/certificate.svg" width="48" alt=""><br><b>PL-300</b><br>Power BI Data Analyst Associate<br><sub>Microsoft Certified</sub></td>
+    <td align="center" width="33%"><img src="assets/icons/certificate.svg" width="48" alt=""><br><b>DP-700</b><br>Fabric Data Engineer Associate<br><sub>Microsoft Certified</sub></td>
+    <td align="center" width="33%"><img src="assets/icons/certificate.svg" width="48" alt=""><br><b>AI-102</b><br>Azure AI Engineer Associate<br><sub>Microsoft Certified</sub></td>
+  </tr>
+</table>
+
+Also: **Google Data Analytics Professional Certificate**, and NVIDIA courses in Deep Learning and Data Science.
 
 ## Recognition
 
-- **1st place**, Green Up Sfax Hackathon (2026)
-- **1st place**, Hackathon Sabat Sfax
-- **1st place**, Young Entrepreneur Hackathon, JCI Gremda / IOM Tunisia
-- National Student Entrepreneur Status, Innovator level, University of Sfax (2025–2026)
+<table>
+  <tr>
+    <td align="center" width="33%"><img src="assets/icons/award.svg" width="48" alt=""><br><b>1st place</b><br>Green Up Sfax Hackathon<br><sub>2026</sub></td>
+    <td align="center" width="33%"><img src="assets/icons/award.svg" width="48" alt=""><br><b>1st place</b><br>Hackathon Sabat Sfax<br><sub>&nbsp;</sub></td>
+    <td align="center" width="33%"><img src="assets/icons/award.svg" width="48" alt=""><br><b>1st place</b><br>Young Entrepreneur Hackathon<br><sub>JCI Gremda / IOM Tunisia</sub></td>
+  </tr>
+</table>
+
+National Student Entrepreneur Status, Innovator level, University of Sfax (2025–2026).
 
 ## Education
 
@@ -99,8 +129,14 @@ Java Swing over a ten-table MySQL schema, with transactional JDBC access and 24 
 
 Languages: Arabic (native), French, English.
 
+<img src="assets/backgrounds/divider.svg" width="100%" alt="">
+
 ## Contact
 
-[LinkedIn](https://www.linkedin.com/in/edam-ketata/) &nbsp;·&nbsp; [edam.ketata.bi@gmail.com](mailto:edam.ketata.bi@gmail.com) &nbsp;·&nbsp; [GitHub](https://github.com/Edambi12)
+<div align="center">
+
+**[LinkedIn](https://www.linkedin.com/in/edam-ketata/)** &nbsp;·&nbsp; **[edam.ketata.bi@gmail.com](mailto:edam.ketata.bi@gmail.com)** &nbsp;·&nbsp; **[GitHub](https://github.com/Edambi12)**
 
 <sub>Sfax, Tunisia · currently in Lublin, Poland</sub>
+
+</div>
